@@ -1,0 +1,28 @@
+.body {
+    height: 100vh;
+    width: 100vw;
+    background: white;
+}
+
+.header {
+    display:inline-block;
+    height: 150px;
+    width: calc(100% - 40px);
+    background: white;
+    border: solid;
+    border-color: black;
+    margin: 20px;
+}
+
+.rectangle1 {
+    width: 35px;
+    height: 98px;
+    background: rgb(152, 77, 226);
+    margin: 40px 0 0 10px;
+}
+
+.rectangle2 {
+    height: 140px;
+    width: 220px;
+    background: green;
+}
