@@ -5,16 +5,16 @@
 }
 
 .header {
-    display:inline-block;
     height: 150px;
     width: calc(100% - 40px);
     background: white;
     border: solid;
     border-color: black;
-    margin: 20px;
+    margin: auto;
 }
 
 .rectangle1 {
+    display: inline-block;
     width: 35px;
     height: 98px;
     background: rgb(152, 77, 226);
@@ -22,7 +22,56 @@
 }
 
 .rectangle2 {
-    height: 140px;
-    width: 220px;
+    display: inline-block;
+    height: 130px;
+    width: 240px;
     background: green;
+    margin-left: 35px;
+}
+
+.circle {
+    display: inline-block;
+    height: 130px;
+    width: 130px;
+    border-radius: 50%;
+    background: skyblue;
+    margin-left: 35px;
+
+}
+
+.section1 {
+    height: 200px;
+    width: calc(100% - 40px);
+    border: dotted;
+    margin: auto;
+}
+
+.postit {
+    height: 130px;
+    width: calc(100% - 60px);
+    background: lightgoldenrodyellow;
+    margin: auto;
+    margin-top: 35px;
+    box-shadow: 5px 5px 5px black;
+}
+
+.section2 {
+    height: 250px;
+    width: 50%;
+    background: white;
+    border: solid thin;
+    border-color: lightgrey;
+    margin: auto;
+    box-shadow: 2px 2px 2px lightgray;
+}
+
+.content {
+    font-family: serif;
+    font-size: larger;
+    color: navy;
+    padding: 115px;
+    text-align: center;
+    letter-spacing: .25rem;
+    font-weight: 600;
+
 }
